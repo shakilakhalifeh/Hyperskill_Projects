@@ -124,7 +124,8 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
-"""
+
+#my sloution
 while True:
     user_input = input("Please enter the number of the habitat you would like to view:")
     if user_input != ("exit"):
@@ -134,8 +135,10 @@ while True:
         break
 #or
 """
+#other programmer solution
 user_input = input()
 while user_input != "exit":
     print(animals[int(user_input)])
     user_input = input()
 print("See you later!")
+"""
